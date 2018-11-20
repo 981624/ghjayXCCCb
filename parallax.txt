@@ -1,0 +1,89 @@
+</b:if>
+
+
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+
+
+<style>
+
+
+body {background:#000;margin:0;}
+
+
+img {display:block;width:100%;}
+
+
+.scene {max-height:800px;margin:0 auto;padding:0;}
+
+
+.layer:nth-child(1) {opacity:0.45;}
+
+
+.layer:nth-child(2) {opacity:0.10;}
+
+
+.layer:nth-child(3) {opacity:0.35;}
+
+
+.layer:nth-child(4) {opacity:0.60;}
+
+
+.layer:nth-child(5) {opacity:0.75;}
+
+
+.layer:nth-child(6) {opacity:0.90;}
+
+
+</style>
+
+
+<div id="container" class="container">
+
+
+  <ul id="scene" class="scene">
+
+
+  <li class="layer" data-depth="0.00"><img 
+src="https://1.bp.blogspot.com/-9jjV792KiQM/WPxi7SWR14I/AAAAAAAAAYU/_LfmvCAvzL4kLcPs5a_ljLSHYZSueBatgCLcB/s1600/batman2-min.jpg"/></li>
+
+
+  <li class="layer" data-depth="0.60"><img src="https://3.bp.blogspot.com/-UJD6axvsgJE/WPxi6SnrYJI/AAAAAAAAAYQ/-r1j0gBzd4UuEDaVm9w7fk_u20pefp3PwCLcB/s1600/bg-layer-1-min.png"/></li>
+
+
+  <li class="layer" data-depth="0.40"><img src="https://3.bp.blogspot.com/-Xs_SnLtAavY/WPxi7hon0EI/AAAAAAAAAYY/2oRDaPYWea860YxFhFz7HhPQFQ_H6hzBQCLcB/s1600/bg-layer-2-min.png"/></li>
+
+
+  <li class="layer" data-depth="0.92"><img src="https://4.bp.blogspot.com/-fXXjXezV0io/WPxjG3LulaI/AAAAAAAAAYg/KNzBJ2c3lkUqwtGVekMi7UdICNyQ4cf7ACLcB/s1600/404.png"/></li>
+
+
+  <li class="layer" data-depth="0.82"><img src="https://4.bp.blogspot.com/-tIY2WL5bsfo/WPxjHIZE2gI/AAAAAAAAAYk/kkWr96mhl0AmsCT2mVTVrz6f-IhObW6mgCLcB/s1600/end.png"/></li>
+
+
+  <li class="layer" data-depth="0.70"><img src="https://3.bp.blogspot.com/-o7nfgkDEKDI/WPxi7r6XeCI/AAAAAAAAAYc/lMrdlUyvwQ8Y68zVmSGw7ZpjX0Lb_9gZACLcB/s1600/zaps-min.png"/></li>
+
+
+<li class='layer'><a expr:href='data:blog.homepageUrl' expr:title='data:blog.title'><img src="https://2.bp.blogspot.com/-CkYJ7VS7oyk/WPxvTGjPlWI/AAAAAAAAAZg/4ngZ2JfH-n4dAqJfruks0rIyCo-um_mpwCLcB/s1600/home2.png"/></a></li> 
+
+
+  </ul>
+
+
+</div>
+
+
+ <script src="https://cdn.rawgit.com/antoncabon/js/master/parallax.js"></script>
+
+
+ <script>
+
+
+ var scene = document.getElementById('scene');
+
+
+ var parallax = new Parallax(scene);
+
+
+ </script>
+
+
+</b:if>
